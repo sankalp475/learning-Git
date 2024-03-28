@@ -1,0 +1,13 @@
+1. git init 
+2. git config
+ 2.1 git config user.name
+ 2.2 git config user.email
+ 2.3 git config --global user.name
+ 2.4 git config --global user.email
+3. git status
+4. git add <FILE NAME>
+5. git rm --cached <FILE NAME>
+ 5.1 git rm -f <FILE NAME>
+6. git commit -m '<COMMIT MESSAGE>'
+ 
+
