@@ -5,9 +5,20 @@
  2.3 git config --global user.name
  2.4 git config --global user.email
 3. git status
-4. git add <FILE NAME>
-5. git rm --cached <FILE NAME>
- 5.1 git rm -f <FILE NAME>
-6. git commit -m '<COMMIT MESSAGE>'
+4. git add 
+ 4.1 git add <FILE NAME>
+ 4.2 git add .
+5. git rm 
+ 5.1 git rm --cached <FILE NAME>
+ 5.2 git rm -f <FILE NAME>
+6. git commit
+ 6.1 git commit -m '<COMMIT MESSAGE>'
+ 6.2 git commit --amend
+7. git log 
+ 7.1 git log --online
+8. git show
+ 8.1 git show <COMMIT HASH> # first 7 characters minimum
+ 8.2 git show HEAD~1 # ~1 for one commit prior to HEAD
+  
  
 
