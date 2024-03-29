@@ -20,6 +20,6 @@
 8. git show
  8.1 git show <COMMIT HASH> # first 7 characters minimum
  8.2 git show HEAD~1 # ~1 for one commit prior to HEAD
-   
- 
+9. git push  
+10. git pull 
 
